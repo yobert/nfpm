@@ -1,5 +1,5 @@
 name: 'NFPM packager action'
-description: 'NFPM packaging tool for deb and rpm packaging'
+description: 'NFPM packaging tool for deb, rpm, and apk packaging'
 branding:
   icon: 'box'  
   color: 'green'
@@ -21,4 +21,4 @@ outputs:
     description: "Created package's name"
 runs:
   using: 'docker'
-  image: 'docker://smartcoder/nfpm:v1.5'
+  image: 'docker://smartcoder/nfpm:v2.3.1'

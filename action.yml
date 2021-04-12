@@ -1,4 +1,4 @@
-name: 'NFPM packager action'
+name: 'NFPM packager action v2'
 description: 'NFPM packaging tool for deb, rpm, and apk packaging'
 branding:
   icon: 'box'  

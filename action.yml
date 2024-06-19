@@ -1,4 +1,4 @@
-name: 'NFPM packager action v2'
+name: 'NFPM packager action v2.27.1'
 description: 'NFPM packaging tool for deb, rpm, and apk packaging'
 branding:
   icon: 'box'  
@@ -21,4 +21,4 @@ outputs:
     description: "Created package's name"
 runs:
   using: 'docker'
-  image: 'docker://blinktag/nfpm:v2.27.1'
+  image: 'docker://yobert/nfpm:v2.27.1'
